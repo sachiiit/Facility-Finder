@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <TextView android:id="@+id/hospname"
+      		
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="25dip"
+  			android:textStyle="bold"
+  			android:padding="10dip"
+  			android:layout_margin="15dp"
+  			android:background="#6B8AAD"
+  			android:textColor="#FFFFFF"
+	        android:typeface="serif"
+  			/>
+
+  <TextView
+	      android:id="@+id/haddress"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:textSize="25dip"
+	  	  android:textStyle="bold"
+	  	  android:padding="10dip"
+	  	  android:background="#6B8AAD"
+	  	  android:layout_margin="15dp"
+	  	  android:textColor="#FFFFFF"
+       />
+  
+  <TextView 
+      		android:id="@+id/contact"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="25dip"
+  			android:textStyle="bold"
+  			android:padding="10dip"
+  			android:layout_margin="15dp"
+  			android:background="#6B8AAD"
+  			android:textColor="#FFFFFF"
+  			/>
+  
+  <!--button starts  -->
+  <ImageButton
+     		android:id="@+id/mpb"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="80dp"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/button"
+		    android:cropToPadding="false"
+		    android:scaleType="fitXY"
+   			/>
+   <!--button ends  -->
+        
+</LinearLayout>
+<!-- android:textColor="#ffffff" -->
